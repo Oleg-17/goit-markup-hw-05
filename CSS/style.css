@@ -89,13 +89,9 @@ header.container, {
   margin-right: auto;
 }
 
-.site-nav li {
+.site-nav li:nth-child(n+2) {
   margin-left: 50px;
-}
-
-.site-nav li:first-child{
-  margin-left: 93px;  
-}
+} 
 
 .contact-nav li:first-child {
   margin-right: 40px;
@@ -110,6 +106,7 @@ header.container, {
 }
 
 .logo {
+  margin-right: 93px;
   width: 145px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -186,7 +183,7 @@ header.container, {
 
 
 .lin {
-  margin: 32px 16px;
+  padding: 32px 0px;
   display: flex;
   align-items: center;
 
@@ -611,12 +608,12 @@ header.container, {
 }
  
 .list-btn:nth-child(n+2) {
-  padding-left: 8px;
+  margin-left: 8px;
   
 }
 
 .lists-btn {
-  margin-left: 8px;
+  margin-bottom: 34px;
   justify-content: center;
   display: flex;
 }
@@ -653,7 +650,6 @@ header.container, {
 }
 
 .card-set {
-  padding-top: 33px;
   display: flex;
   flex-wrap: wrap;
 
